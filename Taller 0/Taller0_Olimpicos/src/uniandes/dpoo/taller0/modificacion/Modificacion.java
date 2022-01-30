@@ -24,7 +24,7 @@ public class Modificacion {
 		
 		CalculadoraEstadisticas calc = null;
 		try {
-			calc = LoaderOlimpicos.cargarArchivo("./data/atltas.csv");
+			calc = LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
 			System.out.println(calc.paisConMasMedallistas());
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
